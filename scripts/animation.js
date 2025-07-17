@@ -38,5 +38,12 @@ $(document).ready(function () {
       origin: 'right',
       interval: 200,
     });
+
+    sr.reveal('.searchdomain-container', {
+      duration: 1600,
+      distance: '60px',
+      origin: 'bottom',
+      interval: 200,
+    });
   }
 });
