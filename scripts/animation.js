@@ -42,6 +42,13 @@ $(document).ready(function () {
     sr.reveal('.searchdomain-container', {
       duration: 1600,
       distance: '60px',
+      origin: 'left',
+      opacity: 0,
+    });
+
+    sr.reveal('.contact-container', {
+      duration: 1600,
+      distance: '60px',
       origin: 'bottom',
       interval: 200,
     });
